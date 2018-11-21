@@ -1,0 +1,15 @@
+// ==UserScript==
+// @name         Ramki-ciemna
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  try to take over the world!
+// @author       Zhaks
+// @match        http://husaria.margonem.com/
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Your code here.
+})(); $(".highlight").css({"backgroundImage":"url(https://i.imgur.com/QetSDxN.gif)"})
